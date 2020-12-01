@@ -17,3 +17,44 @@ git remote add origin https://USERNAME:PASSWORD@github.com/yourusername/
 git-playground.git === remote add remote
 git push --set-upstream origin master === push content from local to remote
 (--set-upstream required only once)
+
+***********************
+So local, add and then commit
+push = intermidiate drop
+branch = vehicle drop
+***********************
+
+git branch --all === see what branches exist
+git check out -b my-feature === create a new branch
+git merge my-feature === whatever added/removed from a branch can be merged with another branch
+  e.g. the above if you are in a different branch and run that command, it will merge anything is
+  in "my-feature"
+git push === ohh so, like this you push anything in the remote repository i.e. the web page
+
+***********************
+Very nice the above local, global, merge, branches
+all will work just very nicely!
+***********************
+$ nano date.py === add script then Ctrl+X save
+$ git add -all === add to index
+$ git commit -m "Add message" === commit
+$ git push === if you are on the right branch
+
+**********************
+Semantic versioning
+
+Patch update
+1.2.4 to 1.2.5 - bug fix / cal update
+
+Minor update
+1.2.4 to 1.3.0 - minor fix / new feature on SW
+
+Major update
+1.2.4 to 2.0.0 - significant SW change / breaking change
+
+
+
+=========================
+
+
+
