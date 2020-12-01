@@ -1,3 +1,5 @@
+Create Repository
+=========================
 git init ===  first time git
 git config --global user.name "John Doe" === Create User Name
 git config --global user.email johndoe@example.com === Create email
