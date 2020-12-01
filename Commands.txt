@@ -1,0 +1,17 @@
+git init ===  first time git
+git config --global user.name "John Doe" === Create User Name
+git config --global user.email johndoe@example.com === Create email
+git status === see status
+git add file.txt === tracked
+git commit -m "My first commit" === First commit
+git add --all === any modifications occurred after the any previous commit
+git commit -m "Update commit" === Commit again
+git log === Have a look
+
+=========================
+
+After creating online Git page / repository
+git remote add origin https://USERNAME:PASSWORD@github.com/yourusername/
+git-playground.git === remote add remote
+git push --set-upstream origin master === push content from local to remote
+(--set-upstream required only once)
